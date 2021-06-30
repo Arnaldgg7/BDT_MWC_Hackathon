@@ -1,6 +1,8 @@
 # BDT_MWC_Hackathon
 Google Colab that became the winner in the individual phase of the Data Science category from the national Hackathon competition held by NUWE and Barcelona Digital Talent for the Mobile World Congress 2021.
 
+The challenge was based on predict the type of the particle that each collision in the LHC particle accelerator from Switzerland produces. The dataset was made of 127,321 observations and 11 features (plus the type of the particle as variable target, with 8 types in total). The aim of the challenge was to generate a Machine Learning model that allows to predict which particle has been produced after the collision of hadrons from the measurements taken by the LHC sensors
+
 **Stack:** Python, Scikit-Learn, Pandas, Numpy and Matplotlib.
 
 The assessment of the projects were based on the F1-Score metric with the 'Macro' criterion, as well as structure and code explanation and documentation.
