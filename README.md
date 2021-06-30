@@ -21,9 +21,13 @@ The approach was based on performing the following steps:
 
 After these steps with the data ready to be tackled, simple linear models were used as a baseline to build upon them, using Non-Linear approaches further on. In summary, the following statistical and Machine Learning techniques were applied:
 **· Linear Discriminant Analysis (LDA)**
+
 **· Quadratic Discriminant Analysis (QDA)**
+
 **· Support Vector Machine (SVM) with RBF Kernel**
+
 **· Random Forest**
+
 **· Gradient Boosted Trees (XGBoost)**
 
 Eventually, since the classes to predict happened to be defined by **Multivariate Gaussian distributions with different covariances matrices**, the most suitable method that achieved the highest F1-Score metric ended up being QDA, with a final **F1-Score of 99.45%**, although some Data Leakage influenced this value.
